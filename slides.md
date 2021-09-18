@@ -26,21 +26,20 @@ theme: light-icons
 
 ---
 layout: image-header-intro
-imageHeader: '#/static/light-icons-logo.svg'
-imageRight: '#/static/light-icons-cover.svg'
+imageHeader: /static/airflow.svg
+imageRight: /static/light-icons-cover.svg
 ---
 
-  <layout-tag layout-name="image-header-intro" />
+<layout-tag layout-name="image-header-intro" />
   
   # What is Airflow?
 
   <div class="leading-snug text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-4">
-    Airflow 是一个由社区创建的平台，用于以编程方式创作、安排和监控工作流. <light-icon icon="plane-departure" size="24px" />
+    Airflow 是一个由社区创建的平台,用于以编程方式创作、安排和监控工作流. 现已成为 Apache 顶级项目 <light-icon icon="plane-departure" size="24px" />
   </div> 
 
-sad
 
-<!-- > Airflow 是一个由社区创建的平台，用于以编程方式创作、安排和监控工作流 -->
+> 使用 python 语言编写的 data pipeline 调度和监控工作流的平台. Airflow 是通过 DAG(Directed acyclic graph 有向无环图)来管理任务流程的任务调度工具, 不需要知道业务数据的具体内容, 设置任务的依赖关系即可实现任务调度
 
 <!-- > Airflow is a platform created by the community to programmatically author, schedule and monitor workflows.
 
@@ -52,6 +51,9 @@ Airflow 是一个由社区创建的平台，用于以编程方式创作、安排
 - 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
 
 Read more about [Why Slidev?](https://sli.dev/guide/why) -->
+
+### 关键词: DAG、任务调度、PYTHON
+
 <style>
 h1 {
   background-color: #2B90B6;
@@ -61,15 +63,26 @@ h1 {
 }
 </style>
 
+<!--
+撒打算大撒的
 
+撒打算大撒
+
+
+阿斯顿撒的
+
+
+撒打打杀杀
+-->
 
 ---
-layout: dynamic-image 
-image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+layout: dynamic-image
+image: https://source.unsplash.com/collection/94734566/1920x1080
 equal: false
 left: true
 ---
-  <layout-tag layout-name="dynamic-image" />
+
+<layout-tag layout-name="dynamic-image" />
 
   <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pt-2 font-sm">
       <span class="text-sm">
@@ -86,9 +99,20 @@ left: true
 layout: dynamic-image //Layout Name
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: false
-left: true
+left: false
 ```
 
+<!--
+ads 
+
+as
+
+阿斯顿撒的
+
+阿斯顿撒的
+
+撒打算大撒
+-->
 
 ---
 layout: center-image

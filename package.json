@@ -12,5 +12,8 @@
     "playwright-chromium": "^1.14.1",
     "slidev-theme-light-icons": "^1.0.2"
   },
-  "name": "airflow"
+  "name": "airflow",
+  "devDependencies": {
+    "fusuma": "^2.8.4"
+  }
 }
