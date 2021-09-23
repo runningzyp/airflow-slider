@@ -10,7 +10,8 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
     "playwright-chromium": "^1.14.1",
-    "slidev-theme-light-icons": "^1.0.2"
+    "slidev-theme-light-icons": "^1.0.2",
+    "vue-particles": "^1.0.9"
   },
   "name": "airflow",
   "devDependencies": {
